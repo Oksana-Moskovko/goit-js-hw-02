@@ -1,5 +1,5 @@
 function formatMessage(message, maxLength) {
-    const messageLength = message.length; // Отримуємо довжину рядка
+    const messageLength = message.length;
     if (messageLength <= maxLength) {
         return message;
     } else {
